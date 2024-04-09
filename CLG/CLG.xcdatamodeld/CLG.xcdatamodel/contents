@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ApiData" representedClassName="ApiData" syncable="YES" codeGenerationType="class">
+        <attribute name="homeApiData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matchInfoData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsApiData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playerApiData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rankingApiData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recentApiData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seriesApiData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamApiData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="upcomingApiData" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PollData" representedClassName="PollData" syncable="YES" codeGenerationType="class">
+        <attribute name="pollID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pollSelected" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ApiData" positionX="-63" positionY="-18" width="128" height="180"/>
+        <element name="PollData" positionX="-63" positionY="45" width="128" height="75"/>
+    </elements>
+</model>

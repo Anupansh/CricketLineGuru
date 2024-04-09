@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Medium_0.ttf">
+            <string>Lato-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PreviousBallCell" id="gTV-IL-0wX" customClass="PreviousBallCell" customModule="CLG" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="45" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="45" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GD9-ZQ-bfB">
+                        <rect key="frame" x="5" y="7.5" width="35" height="35"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="qKe-PT-wrR">
+                                <rect key="frame" x="3" y="3" width="29" height="29"/>
+                                <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qKe-PT-wrR" firstAttribute="leading" secondItem="GD9-ZQ-bfB" secondAttribute="leading" constant="3" id="7bd-SY-TIn"/>
+                            <constraint firstAttribute="height" constant="35" id="Ure-vy-mnx"/>
+                            <constraint firstAttribute="width" constant="35" id="iKw-9Y-zPY"/>
+                            <constraint firstAttribute="bottom" secondItem="qKe-PT-wrR" secondAttribute="bottom" constant="3" id="kfM-Nm-Wfv"/>
+                            <constraint firstAttribute="trailing" secondItem="qKe-PT-wrR" secondAttribute="trailing" constant="3" id="nYu-ow-aiw"/>
+                            <constraint firstItem="qKe-PT-wrR" firstAttribute="top" secondItem="GD9-ZQ-bfB" secondAttribute="top" constant="3" id="u4n-QE-RMx"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="GD9-ZQ-bfB" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="TGp-Zm-E70"/>
+                <constraint firstItem="GD9-ZQ-bfB" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="VNG-hI-xg7"/>
+            </constraints>
+            <size key="customSize" width="104" height="72"/>
+            <connections>
+                <outlet property="PrevBallView" destination="GD9-ZQ-bfB" id="ES9-gk-9dW"/>
+                <outlet property="lblPreviousBall" destination="qKe-PT-wrR" id="fdZ-XM-m6l"/>
+            </connections>
+            <point key="canvasLocation" x="60" y="166.41679160419793"/>
+        </collectionViewCell>
+    </objects>
+</document>

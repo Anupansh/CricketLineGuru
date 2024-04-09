@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold_0.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular_0.ttf">
+            <string>Lato-Regular</string>
+        </array>
+        <array key="Lato-Semibold_0.ttf">
+            <string>Lato-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellBannerAdTableViewCell" rowHeight="230" id="KGk-i7-Jjw" customClass="CellBannerAdTableViewCell" customModule="CLG" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="149"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="148.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PLe-ew-E26" customClass="GADBannerView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="148.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DHp-BQ-DYt" customClass="GADUnifiedNativeAdView">
+                        <rect key="frame" x="5" y="5" width="310" height="138.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yb-b0-Q4L">
+                                <rect key="frame" x="3" y="3" width="15" height="13.5"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zx1-Rn-idz">
+                                <rect key="frame" x="210" y="103.5" width="80" height="25"/>
+                                <color key="backgroundColor" red="0.23921568630000001" green="0.2666666667" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15"/>
+                                <state key="normal" backgroundImage="GradientBG">
+                                    <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVi-jr-P9n">
+                                <rect key="frame" x="155" y="20" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="17"/>
+                                <color key="textColor" red="0.18849987909999999" green="0.1537784837" blue="0.53367280959999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7y-Jp-rM4">
+                                <rect key="frame" x="158" y="30" width="122" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="16"/>
+                                <color key="textColor" red="0.45098039220000002" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hnl-b5-7KY">
+                                <rect key="frame" x="20" y="30" width="130" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="4Qb-J9-KlI"/>
+                                    <constraint firstAttribute="height" constant="95" id="Kdj-6l-JQL"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y7K-LK-jJf" customClass="GADMediaView">
+                                <rect key="frame" x="20" y="30" width="130" height="95"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hnl-b5-7KY" firstAttribute="leading" secondItem="DHp-BQ-DYt" secondAttribute="leading" constant="20" id="1mh-cg-Bfi"/>
+                            <constraint firstItem="W7y-Jp-rM4" firstAttribute="leading" secondItem="hnl-b5-7KY" secondAttribute="trailing" constant="8" id="7uf-8t-fw6"/>
+                            <constraint firstItem="hnl-b5-7KY" firstAttribute="top" secondItem="W7y-Jp-rM4" secondAttribute="top" id="DlY-XQ-kUV"/>
+                            <constraint firstItem="xVi-jr-P9n" firstAttribute="centerX" secondItem="DHp-BQ-DYt" secondAttribute="centerX" id="EMf-oY-MrL"/>
+                            <constraint firstItem="xVi-jr-P9n" firstAttribute="top" secondItem="DHp-BQ-DYt" secondAttribute="top" constant="20" id="EQB-QE-6sf"/>
+                            <constraint firstItem="Y7K-LK-jJf" firstAttribute="width" secondItem="hnl-b5-7KY" secondAttribute="width" id="H7M-Sx-cef"/>
+                            <constraint firstAttribute="trailing" secondItem="W7y-Jp-rM4" secondAttribute="trailing" constant="30" id="LUv-vd-k7x"/>
+                            <constraint firstItem="Y7K-LK-jJf" firstAttribute="centerX" secondItem="hnl-b5-7KY" secondAttribute="centerX" id="OoP-BH-pW3"/>
+                            <constraint firstItem="Uc0-Uc-OKD" firstAttribute="trailing" secondItem="zx1-Rn-idz" secondAttribute="trailing" constant="20" id="Q3T-uv-FGp"/>
+                            <constraint firstItem="W7y-Jp-rM4" firstAttribute="top" secondItem="xVi-jr-P9n" secondAttribute="bottom" constant="10" id="UNE-av-kUg"/>
+                            <constraint firstItem="Y7K-LK-jJf" firstAttribute="centerY" secondItem="hnl-b5-7KY" secondAttribute="centerY" id="UyR-Or-TTA"/>
+                            <constraint firstItem="Uc0-Uc-OKD" firstAttribute="bottom" secondItem="zx1-Rn-idz" secondAttribute="bottom" constant="10" id="g5N-Qb-x7o"/>
+                            <constraint firstItem="7yb-b0-Q4L" firstAttribute="leading" secondItem="Uc0-Uc-OKD" secondAttribute="leading" constant="3" id="hAY-SL-5UA"/>
+                            <constraint firstItem="7yb-b0-Q4L" firstAttribute="top" secondItem="Uc0-Uc-OKD" secondAttribute="top" constant="3" id="ogF-PJ-YLU"/>
+                            <constraint firstItem="Y7K-LK-jJf" firstAttribute="height" secondItem="hnl-b5-7KY" secondAttribute="height" id="zFj-BF-4vv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Uc0-Uc-OKD"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="1" height="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="bodyView" destination="W7y-Jp-rM4" id="gD0-xh-Fat"/>
+                            <outlet property="callToActionView" destination="zx1-Rn-idz" id="0UL-oP-hY8"/>
+                            <outlet property="headlineView" destination="xVi-jr-P9n" id="MZb-lm-uAK"/>
+                            <outlet property="imageView" destination="hnl-b5-7KY" id="l8U-cj-H4W"/>
+                            <outlet property="mediaView" destination="Y7K-LK-jJf" id="JWI-u1-1uz"/>
+                        </connections>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PLe-ew-E26" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="8xr-f7-DTi"/>
+                    <constraint firstAttribute="trailing" secondItem="DHp-BQ-DYt" secondAttribute="trailing" constant="5" id="A2K-gr-A1k"/>
+                    <constraint firstItem="DHp-BQ-DYt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Toz-4X-hZV"/>
+                    <constraint firstAttribute="trailing" secondItem="PLe-ew-E26" secondAttribute="trailing" id="bPL-ma-Erh"/>
+                    <constraint firstAttribute="bottom" secondItem="DHp-BQ-DYt" secondAttribute="bottom" constant="5" id="evt-sx-tzC"/>
+                    <constraint firstAttribute="bottom" secondItem="PLe-ew-E26" secondAttribute="bottom" id="jLp-UD-yPi"/>
+                    <constraint firstItem="DHp-BQ-DYt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="lUv-RB-YMx"/>
+                    <constraint firstItem="PLe-ew-E26" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pJj-0r-VOV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bannerView" destination="PLe-ew-E26" id="y80-LS-CPD"/>
+            </connections>
+            <point key="canvasLocation" x="56" y="59.820089955022496"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="GradientBG" width="80" height="25"/>
+    </resources>
+</document>

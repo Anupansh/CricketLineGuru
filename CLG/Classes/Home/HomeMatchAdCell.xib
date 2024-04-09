@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold_0.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular_0.ttf">
+            <string>Lato-Regular</string>
+        </array>
+        <array key="Lato-Semibold_0.ttf">
+            <string>Lato-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeMatchAdCell" rowHeight="287" id="KGk-i7-Jjw" customClass="HomeMatchAdCell" customModule="CLG" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="287"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="366" height="286.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aTG-At-Aur" customClass="GADUnifiedNativeAdView">
+                        <rect key="frame" x="10" y="7" width="346" height="272.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gx-Vj-AcO">
+                                <rect key="frame" x="3" y="3" width="15" height="13.5"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="11"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGG-gP-GaP">
+                                <rect key="frame" x="246" y="237.5" width="80" height="25"/>
+                                <color key="backgroundColor" red="0.23921568630000001" green="0.2666666667" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15"/>
+                                <state key="normal" backgroundImage="GradientBG">
+                                    <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8w-Bv-OaJ">
+                                <rect key="frame" x="173" y="20" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="17"/>
+                                <color key="textColor" red="0.18849987909999999" green="0.1537784837" blue="0.53367280959999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGS-cb-q1R">
+                                <rect key="frame" x="158" y="30" width="158" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="16"/>
+                                <color key="textColor" red="0.45098039215686275" green="0.45098039215686275" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SNS-oC-PbC">
+                                <rect key="frame" x="20" y="30" width="130" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="NqD-EY-Yjr"/>
+                                    <constraint firstAttribute="height" constant="95" id="RfP-gI-61c"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2W-r8-Dqj" customClass="GADMediaView">
+                                <rect key="frame" x="20" y="30" width="130" height="95"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1gx-Vj-AcO" firstAttribute="top" secondItem="t8w-Dg-6CR" secondAttribute="top" constant="3" id="AEg-WN-cjY"/>
+                            <constraint firstItem="SNS-oC-PbC" firstAttribute="leading" secondItem="aTG-At-Aur" secondAttribute="leading" constant="20" id="NLv-f8-UFB"/>
+                            <constraint firstItem="q8w-Bv-OaJ" firstAttribute="centerX" secondItem="aTG-At-Aur" secondAttribute="centerX" id="Pb7-qM-vPI"/>
+                            <constraint firstItem="t8w-Dg-6CR" firstAttribute="bottom" secondItem="GGG-gP-GaP" secondAttribute="bottom" constant="10" id="RlL-v4-nhc"/>
+                            <constraint firstItem="1gx-Vj-AcO" firstAttribute="leading" secondItem="t8w-Dg-6CR" secondAttribute="leading" constant="3" id="Tob-tB-dJF"/>
+                            <constraint firstItem="c2W-r8-Dqj" firstAttribute="centerY" secondItem="SNS-oC-PbC" secondAttribute="centerY" id="YcG-tS-ttb"/>
+                            <constraint firstAttribute="trailing" secondItem="iGS-cb-q1R" secondAttribute="trailing" constant="30" id="aHn-gw-jQA"/>
+                            <constraint firstItem="c2W-r8-Dqj" firstAttribute="centerX" secondItem="SNS-oC-PbC" secondAttribute="centerX" id="ad9-T4-MU1"/>
+                            <constraint firstItem="SNS-oC-PbC" firstAttribute="top" secondItem="iGS-cb-q1R" secondAttribute="top" id="dKv-M4-Ldz"/>
+                            <constraint firstItem="c2W-r8-Dqj" firstAttribute="height" secondItem="SNS-oC-PbC" secondAttribute="height" id="gnQ-GP-Kmz"/>
+                            <constraint firstItem="iGS-cb-q1R" firstAttribute="leading" secondItem="SNS-oC-PbC" secondAttribute="trailing" constant="8" id="sLz-ls-jg5"/>
+                            <constraint firstItem="c2W-r8-Dqj" firstAttribute="width" secondItem="SNS-oC-PbC" secondAttribute="width" id="slH-lp-Adg"/>
+                            <constraint firstItem="q8w-Bv-OaJ" firstAttribute="top" secondItem="aTG-At-Aur" secondAttribute="top" constant="20" id="usq-Dp-gGH"/>
+                            <constraint firstItem="iGS-cb-q1R" firstAttribute="top" secondItem="q8w-Bv-OaJ" secondAttribute="bottom" constant="10" id="zfK-GL-bgc"/>
+                            <constraint firstItem="t8w-Dg-6CR" firstAttribute="trailing" secondItem="GGG-gP-GaP" secondAttribute="trailing" constant="20" id="ztw-vZ-USV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="t8w-Dg-6CR"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="bodyView" destination="iGS-cb-q1R" id="LTd-f5-9Le"/>
+                            <outlet property="callToActionView" destination="GGG-gP-GaP" id="8cb-Ix-750"/>
+                            <outlet property="headlineView" destination="q8w-Bv-OaJ" id="MNc-BQ-vi3"/>
+                            <outlet property="imageView" destination="SNS-oC-PbC" id="8tK-Mg-juE"/>
+                            <outlet property="mediaView" destination="c2W-r8-Dqj" id="W2p-ZF-1Mf"/>
+                        </connections>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="aTG-At-Aur" secondAttribute="bottom" constant="7" id="7ya-Ct-9hg"/>
+                    <constraint firstItem="aTG-At-Aur" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Qgy-nB-KSU"/>
+                    <constraint firstItem="aTG-At-Aur" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="WKs-hX-R5a"/>
+                    <constraint firstAttribute="trailing" secondItem="aTG-At-Aur" secondAttribute="trailing" constant="10" id="u8b-7e-sxR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="73" y="203.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="GradientBG" width="80" height="25"/>
+    </resources>
+</document>
